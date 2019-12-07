@@ -9,9 +9,8 @@ https://elastictunnel.com/
 - bash as shell
 
 # Usage:
-**------------------------------------------------------------**
-
-**$ cd ~**
+**------------------------------------------------------------
+$ cd ~**
 
 **$ git clone https://github.com/ElasticTunnel/git_tools.git**
 
