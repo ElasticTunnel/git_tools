@@ -4,11 +4,13 @@ If you have any suggestions you can contact us via our official site:
 
 https://elastictunnel.com/
 
-# Pre Requirements
+# Pre Requirements:
 - git installed
 - bash as shell
 
-# Usage
+# Usage:
+**------------------------------------------------------------**
+
 **$ cd ~**
 
 **$ git clone https://github.com/ElasticTunnel/git_tools.git**
@@ -17,21 +19,21 @@ https://elastictunnel.com/
 
 **$ ~/git_tools/scripts/get_authors.sh**
 
- Vladimir Yavdoshenko <41993419+gituser@users.noreply.github.com>
+ Git Member <41993419+gituser@users.noreply.github.com>
 
- Vladimir Yavdoshenko <info@elastictunnel.com>
+ Git Member <git.member@company.com>
 
 
 
-**$ ~/git_tools/scripts/fix_git_email_and_name.sh 41993419+gituser@users.noreply.github.com "Vladimir Yavdoshenko" info@elastictunnel.com "Vladimir Yavdoshenko"**
+**$ ~/git_tools/scripts/fix_git_email_and_name.sh 41993419+gituser@users.noreply.github.com "Git Member" git.member@company.com "Git Member"**
 
- Old name: Vladimir Yavdoshenko
+ Old name: Git Member
 
  Old email: 41993419+gituser@users.noreply.github.com
 
- Correct name: Vladimir Yavdoshenko
+ Correct name: Git Member
 
- Correct email: info@elastictunnel.com
+ Correct email: git.member@company.com
 
  Rewrite c164bab6ab6945876ca5e6071405b192c738dd8f (3/5) (1 seconds passed, remaining 0 predicted)
 
@@ -41,7 +43,7 @@ https://elastictunnel.com/
 
 **$ ~/git_tools/scripts/get_authors.sh**
 
- Vladimir Yavdoshenko <info@elastictunnel.com>
+ Git Member <git.member@company.com>
 
 
 
