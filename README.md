@@ -11,8 +11,11 @@ https://elastictunnel.com/
 # Usage:
 
 **$ cd ~**
+
 **$ git clone https://github.com/ElasticTunnel/git_tools.git**
+
 **$ cd ~/your_git_repo/**
+
 **$ ~/git_tools/scripts/get_authors.sh**
 
  Vladimir Yavdoshenko <41993419+vyavdoshenko@users.noreply.github.com>
