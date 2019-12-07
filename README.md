@@ -9,23 +9,20 @@ https://elastictunnel.com/
 - bash as shell
 
 # Usage:
-**------------------------------------------------------------
-
-$ cd ~**
-
-**$ git clone https://github.com/ElasticTunnel/git_tools.git**
-
-**$ cd ~/your_git_repo/**
-
-**$ ~/git_tools/scripts/get_authors.sh**
+```
+$ cd ~
+$ git clone https://github.com/ElasticTunnel/git_tools.git
+$ cd ~/your_git_repo/
+$ ~/git_tools/scripts/get_authors.sh
+```
 
  Git Member <41993419+gituser@users.noreply.github.com>
 
  Git Member <git.member@company.com>
 
-
-
-**$ ~/git_tools/scripts/fix_git_email_and_name.sh 41993419+gituser@users.noreply.github.com "Git Member" git.member@company.com "Git Member"**
+```
+$ ~/git_tools/scripts/fix_git_email_and_name.sh 41993419+gituser@users.noreply.github.com "Git Member" git.member@company.com "Git Member"
+```
 
  Old name: Git Member
 
@@ -40,11 +37,13 @@ $ cd ~**
  Ref 'refs/heads/master' was rewritten
 
 
-
-**$ ~/git_tools/scripts/get_authors.sh**
+```
+$ ~/git_tools/scripts/get_authors.sh
+```
 
  Git Member <git.member@company.com>
 
 
-
-**$ ~/git_tools/scripts/force_push.sh**
+```
+$ ~/git_tools/scripts/force_push.sh
+```
