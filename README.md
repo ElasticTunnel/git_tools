@@ -10,7 +10,9 @@ https://elastictunnel.com/
 
 # Usage:
 
-**$ cd **
+
+
+**$ cd ~**
 
 **$ git clone https://github.com/ElasticTunnel/git_tools.git**
 
@@ -21,6 +23,8 @@ https://elastictunnel.com/
  Vladimir Yavdoshenko <41993419+vyavdoshenko@users.noreply.github.com>
  
  Vladimir Yavdoshenko <v.yavdoshenko@elastictunnel.com>
+
+
 
 **$ ~/git_tools/scripts/fix_git_email_and_name.sh 41993419+vyavdoshenko@users.noreply.github.com "Vladimir Yavdoshenko" v.yavdoshenko@elastictunnel.com "Vladimir Yavdoshenko"**
 
@@ -36,8 +40,12 @@ https://elastictunnel.com/
  
  Ref 'refs/heads/master' was rewritten
 
+
+
 **$ ~/git_tools/scripts/get_authors.sh**
 
  Vladimir Yavdoshenko <v.yavdoshenko@elastictunnel.com>
+
+
 
 **$ ~/git_tools/scripts/force_push.sh**
