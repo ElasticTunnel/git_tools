@@ -10,7 +10,7 @@ https://elastictunnel.com/
 
 # Usage:
 
-**$ cd ~**
+**$ cd **
 
 **$ git clone https://github.com/ElasticTunnel/git_tools.git**
 
