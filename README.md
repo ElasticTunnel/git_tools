@@ -12,7 +12,7 @@ https://elastictunnel.com/
 
 
 
-**$ cd ~**
+__$ cd ~__
 
 **$ git clone https://github.com/ElasticTunnel/git_tools.git**
 
