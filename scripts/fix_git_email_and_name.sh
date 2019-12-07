@@ -13,8 +13,8 @@ fi
 
 export OLD_EMAIL="$1"
 export OLD_NAME="$2"
-export CORRECT_NAME="$3"
-export CORRECT_EMAIL="$4"
+export CORRECT_EMAIL="$3"
+export CORRECT_NAME="$4"
 
 echo "Old name: $OLD_NAME"
 echo "Old email: $OLD_EMAIL"
