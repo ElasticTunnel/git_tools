@@ -11,16 +11,17 @@ if [ $# -ne 4 ] ; then
     exit 1
 fi
 
-echo "Old name: $1"
-echo "Old email: $2"
-echo "Correct name: $3"
-echo "Correct email: $4"
+export OLD_EMAIL="$1"
+export OLD_NAME="$2"
+export CORRECT_NAME="$3"
+export CORRECT_EMAIL="$4"
+
+echo "Old name: $OLD_NAME"
+echo "Old email: $OLD_EMAIL"
+echo "Correct name: $CORRECT_NAME"
+echo "Correct email: $CORRECT_EMAIL"
 
 git filter-branch -f --env-filter '
-OLD_EMAIL="$1"
-OLD_NAME="$2"
-CORRECT_NAME="$3"
-CORRECT_EMAIL="$4"
 if [ "$GIT_COMMITTER_NAME" = "$OLD_NAME" ]; then
     if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]; then
         export GIT_COMMITTER_NAME="$CORRECT_NAME"
