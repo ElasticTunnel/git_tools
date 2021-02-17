@@ -4,4 +4,4 @@
 # License: MIT
 # If you have any questions or suggestions please contact us via our official site.
 
-git push --force --tags origin HEAD:master
+git push --force --tags origin HEAD:main

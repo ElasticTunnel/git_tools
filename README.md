@@ -30,7 +30,7 @@ $ ~/git_tools/scripts/fix_git_email_and_name.sh 41993419+gituser@users.noreply.g
 
  Rewrite c164bab6ab6945876ca5e6071405b192c738dd8f (3/5) (1 seconds passed, remaining 0 predicted)
 
- Ref 'refs/heads/master' was rewritten
+ Ref 'refs/heads/main' was rewritten
 
 
 ```
